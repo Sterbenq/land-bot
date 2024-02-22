@@ -610,3 +610,9 @@ footer ul li i:hover {
 #about{
   padding: 60px 0;
 }
+.border-p{
+      padding: 5px 5px;
+    border: 1px solid #39d196;
+    border-radius: 6px;
+    text-align: center;
+}

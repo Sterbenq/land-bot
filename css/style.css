@@ -544,6 +544,19 @@ footer ul li i:hover {
   #prizes .col-md{
     margin-top: 0;
   }
+/*   new */
+  .intro h1{
+    ont-size: 40px !important;
+    line-height: 43px !important;
+  }
+  .intro  p{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  #home{
+    padding-top: 40px;
+  }
+  
 }
 
 #home{

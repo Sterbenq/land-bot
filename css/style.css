@@ -556,6 +556,9 @@ footer ul li i:hover {
   #home{
     padding-top: 40px;
   }
+  #rules .align-items-center{
+    flex-direction: column-reverse;
+  }
   
 }
 

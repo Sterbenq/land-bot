@@ -662,4 +662,6 @@ footer ul li i:hover {
   }
 }
 
-#rules,
+#rules{
+  margin-bottom: 30px;
+}

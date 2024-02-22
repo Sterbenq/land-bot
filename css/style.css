@@ -654,4 +654,7 @@ footer ul li i:hover {
     padding: 0;
     height: fit-content;
   }
+  #rules .col-md .content{
+    margin-bottom: 0px;
+  }
 }

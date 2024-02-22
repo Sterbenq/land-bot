@@ -526,39 +526,7 @@ footer ul li i:hover {
   }
 }
 
-@media (max-width: 768px){
-  .about,.services{
-    padding: 40px 0;
-  }
-  .new-row{
-    flex-direction: column;
-  }
-  .navbar{
-    padding: 10px 0;
-  }
-  .intro{
-    margin-top: 65px;
-  }
-  #prizes .col-md{
-    margin-top: 0;
-  }
-/*   new */
-  .intro h1{
-    ont-size: 40px !important;
-    line-height: 43px !important;
-  }
-  .intro  p{
-    font-size: 20px;
-    line-height: 22px;
-  }
-  #home{
-    padding-top: 40px;
-  }
-  #rules .align-items-center{
-    flex-direction: column-reverse;
-  }
-  
-}
+
 
 #home{
   background-image: url(../img/home-bg.png);
@@ -594,9 +562,6 @@ footer ul li i:hover {
 }
 #rules .col-md .content{
   margin-bottom: 60px;
-}
-#rules .align-items-center{
-  align-items: flex-end !important;
 }
 #prizes{
   color: #fff !important;
@@ -661,8 +626,81 @@ footer ul li i:hover {
   .testimonial{
     padding-bottom: 60px !important;
   }
+
 }
 
 #rules{
   margin-bottom: 60px;
+}
+#home{
+  padding-bottom: 0;
+  padding-top: 60px;
+}
+.zzz{
+  height: 500px;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+}
+#home .content-image{
+  position: absolute;
+  width: 60%;
+  right: 0;
+}
+#home h1{
+  font-size: 68px;
+}
+#home p{
+  font-size: 20px;
+}
+#rules .col-md-6{
+  margin-top: 0 !important;
+}
+#home .container{
+  max-width: 1500px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px){
+  .about,.services{
+    padding: 40px 0;
+  }
+  .new-row{
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 10px 0;
+  }
+  .intro{
+    margin-top: 65px;
+  }
+  #prizes .col-md{
+    margin-top: 0;
+  }
+/*   new */
+  .intro h1{
+    font-size: 40px !important;
+    line-height: 43px !important;
+  }
+  .intro  p{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  #home{
+    padding-top: 70px !important;
+  }
+  #rules .align-items-center{
+    flex-direction: column-reverse;
+  }
+  .zzz{
+    position: relative;
+    height: 350px;
+  }
+  #home .content-image{
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 80px;
+  }
+  
 }

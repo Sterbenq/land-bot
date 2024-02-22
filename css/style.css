@@ -621,7 +621,7 @@ footer ul li i:hover {
 }
 .testimonial .content-box{
   position: relative;
-  height: 400px;
+  height: 430px;
 }
 .testimonial .swiper{
   width: 100%;
@@ -661,3 +661,5 @@ footer ul li i:hover {
     margin-top: 0 !important;
   }
 }
+
+#rules,

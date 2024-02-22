@@ -248,11 +248,10 @@ img {
 }
 .intro .content-image {
   text-align: right;
-  margin-right: 20px;
 }
 .intro .content-image img {
   position: relative;
-  width: 90%;
+  width: 100%;
   filter: brightness(0.9);
 }
 .intro .button {
@@ -469,8 +468,7 @@ footer ul li i:hover {
 @media (max-width: 767px) {
   .intro .content-image {
     text-align: right;
-    margin-right: 44px;
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   .clients {
